@@ -5,6 +5,7 @@ import com.devsuperior.dsvendas.entities.Seller;
 import java.io.Serializable;
 
 public class SellerDTO implements Serializable {
+    private static final long serialVerionUID = 1L;
     private Long id;
     private String name;
 

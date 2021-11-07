@@ -53,8 +53,8 @@ const DataTable = () => {
                     
                 </tbody>
             </table>
-            <Pagination page={page} onPageChange={changePage}/>
         </div>
+        <Pagination page={page} onPageChange={changePage}/>
         </>
     )
 }
